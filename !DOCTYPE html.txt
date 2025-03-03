@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuidando do Cachorro Estiloso</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 60%;
+      max-width: 800px;
+    }
+
+    header {
+      background-color: #ff6347;
+      color: white;
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .dog-image {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #ff6347;
+    }
+
+    .care-button {
+      background-color: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .care-button:hover {
+      background-color: #45a049;
+    }
+
+    .funny-text {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #ff6347;
+      color: white;
+      padding: 10px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      Cuidando do Cachorro Estiloso
+    </header>
+
+    <div class="content">
+      <img class="dog-image" src="https://www.akc.org/wp-content/uploads/2017/11/Golden-Retriever-MP.jpg" alt="Cachorro com óculos escuros">
+      <h2>Esse é o Max, o cachorro mais estiloso do bairro!</h2>
+      <p class="funny-text">Max adora se aventurar, correr no parque e, claro, exibir seus óculos escuros incríveis. Ele está esperando por você para cuidar dele e garantir que ele continue sendo o cachorro mais descolado de todos.</p>
+      <button class="care-button" onclick="cuidar()">Cuidar do Max!</button>
+      <p id="message" class="funny-text"></p>
+    </div>
+
+    <footer>
+      &copy; 2025 Max e Seus Óculos Escuros
+    </footer>
+  </div
